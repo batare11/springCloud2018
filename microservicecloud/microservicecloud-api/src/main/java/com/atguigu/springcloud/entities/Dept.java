@@ -25,6 +25,35 @@ public class Dept implements Serializable// entity --orm--- db_table
 		super();
 		this.dname = dname;
 	}
-	
+	public Dept()
+	{
+		super();
+	}
+	public Long getDeptno() {
+		return deptno;
+	}
+
+	public Dept setDeptno(Long deptno) {
+		this.deptno = deptno;
+		return this;
+	}
+
+	public String getDname() {
+		return dname;
+	}
+
+	public Dept setDname(String dname) {
+		this.dname = dname;
+		return this;
+	}
+
+	public String getDb_source() {
+		return db_source;
+	}
+
+	public Dept setDb_source(String db_source) {
+		this.db_source = db_source;
+		return this;
+	}
 	
 }
